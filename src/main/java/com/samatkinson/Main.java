@@ -5,7 +5,7 @@ import static spark.Spark.*;
 public class Main {
 
     public static void main(String[] args) {
-        port(Integer.parseInt(System.getenv(git "PORT")));
+        port(Integer.parseInt(System.getenv("PORT")));
         get("/cage", (req, res) -> {
             return "{" +
                     "    \"attachments\": [" +
