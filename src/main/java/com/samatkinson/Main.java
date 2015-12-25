@@ -16,10 +16,6 @@ public class Main {
                     "    \"text\": \"Here is a calm image of Nic Cage.\"," +
                     "    \"attachments\": [" +
                     "        {" +
-                    "            \"fallback\": \"Network traffic (kb/s): How does this look? @slack-ops - Sent by Julie Dodd - https://datadog.com/path/to/event\",\n" +
-                    "            \"title\": \"Network traffic (kb/s)\",\n" +
-                    "            \"title_link\": \"https://datadog.com/path/to/event\",\n" +
-                    "            \"text\": \"How does this look? @slack-ops - Sent by Julie Dodd\",\n" +
                     "            \"image_url\": \"https://www.placecage.com/200/300\",\n" +
                     "            \"color\": \"#764FA5\"" +
 
