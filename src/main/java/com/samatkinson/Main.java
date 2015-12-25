@@ -12,7 +12,6 @@ public class Main {
         get("/cage", "application/json", (req, res) -> {
             res.type("application/json");
             return "{\n" +
-                    "    \"text\": \"Here is a calm image of Nic Cage.\",\n" +
                     "    \"attachments\": [\n" +
                     "        {\n" +
                     "            \"image_url\": \"https://www.placecage.com/200/300.jpg\"" +
