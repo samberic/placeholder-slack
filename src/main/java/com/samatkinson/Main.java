@@ -11,9 +11,7 @@ public class Main {
         port(Integer.parseInt(port));
         get("/cage", "application/json", (req, res) -> {
             res.type("application/json");
-            return "{" +
-                    "    \"text\": \"<https://datadoghq.com/snapshot/path/to/snapshot.png>\"" +
-                    "}";
+            return "{\"text\": \"<http://imgs.xkcd.com/comics/regex_golf.png>\"}";
         });
     }
 }
