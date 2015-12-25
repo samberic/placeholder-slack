@@ -12,7 +12,7 @@ public class Main {
         get("/cage", "application/json", (req, res) -> {
             res.type("application/json");
             return "{" +
-                    "    \"text\": \"<https://datadoghq.com/snapshot/path/to/snapshot.png>\"," +
+                    "    \"text\": \"<https://datadoghq.com/snapshot/path/to/snapshot.png>\"" +
                     "}";
         });
     }
