@@ -20,7 +20,7 @@ public class Main {
                     "            \"title\": \"Network traffic (kb/s)\",\n" +
                     "            \"title_link\": \"https://datadog.com/path/to/event\",\n" +
                     "            \"text\": \"How does this look? @slack-ops - Sent by Julie Dodd\",\n" +
-                    "            \"image_url\": \"http://imgs.xkcd.com/comics/regex_golf.png\",\n" +
+                    "            \"image_url\": \"https://www.placecage.com/200/300\",\n" +
                     "            \"color\": \"#764FA5\"" +
 
                     "        }" +
