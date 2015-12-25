@@ -16,6 +16,7 @@ public class Main {
                     "    \"text\": \"Here is a calm image of Nic Cage.\"," +
                     "    \"attachments\": [" +
                     "        {" +
+                    "            \"title\": \"Nic Cage\",\n" +
                     "            \"image_url\": \"https://www.placecage.com/200/300\",\n" +
                     "            \"color\": \"#764FA5\"" +
 
