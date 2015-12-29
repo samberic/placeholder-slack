@@ -12,6 +12,10 @@ public class UrlFormatter {
     }};
     static String formatUrl = "https://www.placecage.com%s/200/300";
 
+    public UrlFormatter(HeightWidthGenerator heightWidthGenerator) {
+
+    }
+
     public String getFormattedUrl(String params) {
         if (!commandMap.containsKey(params)) {
             params = "calm";
