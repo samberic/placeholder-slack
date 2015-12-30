@@ -3,9 +3,9 @@
 ##What is it?
 Placeholder-slack adds the command "/cage" to your slack team.  This will give you a lovely image of Nic Cage.
 
-"/cage" or "/cage calm" will give you a picture of Nic looking calm.
-"/cage crazy" will give you a crazy image of Nic.
-"/cage gray" will give you a black and white picture of Nic.  
+"/cage" or "/cage calm" will give you a picture of Nic looking calm.  
+"/cage crazy" will give you a crazy image of Nic.  
+"/cage gray" will give you a black and white picture of Nic.    
 "/cage gif" will give you a gif of Nic Cage.  
 
 Images will be between 300-400px tall, and 200-400px wide.
@@ -33,7 +33,7 @@ Mine is at http://placeholder-slack.herokuapp.com/cage.
 ##Why can't you make it a slack app I can install in one click?
 Needs HTTPS. HTTPS is pricey on Heroku.  
 
-##I want support for Bill Murray/Steven Segal/Others! OR I've found a bug!
+##I want support for Bill Murray/Steven Segal/Others! OR I've found a bug OR I want to say hi/thanks!
 Pull requests are welcome, or feel free to tweet me up at [@SambaHK](http://www.twitter.com/sambahk) and I'll see what I can do.
 I do want to expand it past just Nic, hence why there's no cage in the project name.
  
