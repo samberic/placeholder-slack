@@ -11,11 +11,21 @@ public class UrlFormatter {
         put("gif", "/gif");
     }};
     static String formatUrl = "https://www.placecage.com%s/200/300";
+    private String params;
 
-    public String getFormattedUrl(String params) {
+    public UrlFormatter(String params) {
+        this.params = params;
         if (!commandMap.containsKey(params)) {
-            params = "calm";
+            System.out.println("Text did not match a mood. Text was: " + params);
+            this.params = "calm";
         }
+    }
+
+    public String getFormattedUrl() {
         return String.format(formatUrl, commandMap.get(params));
+    }
+
+    public String imageType() {
+        return params;
     }
 }

@@ -17,12 +17,12 @@ public class Main {
             res.type("application/json");
             String params = req.params(":text");
 
-            urlFormatter = new UrlFormatter();
-            String formattedUrl = urlFormatter.getFormattedUrl(params);
+            urlFormatter = new UrlFormatter(params);
+            String formattedUrl = urlFormatter.getFormattedUrl();
 
             return "{" +
                     "\"response_type\": \"in_channel\"," +
-                    "    \"text\": \"Here is a calm image of Nic Cage.\"," +
+                    "    \"text\": \"Here is a " + urlFormatter.imageType() + " image of Nic Cage.\"," +
                     "    \"attachments\": [" +
                     "        {" +
                     "            \"title\": \"Nic Cage\",\n" +
