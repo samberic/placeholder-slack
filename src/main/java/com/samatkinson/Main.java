@@ -15,7 +15,7 @@ public class Main {
         port(Integer.parseInt(port));
         get("/cage", (req, res) -> {
             res.type("application/json");
-            String params = req.params(":text");
+            String params = req.queryParams(":text");
 
             urlFormatter = new UrlFormatter(params);
             String formattedUrl = urlFormatter.getFormattedUrl();
