@@ -18,7 +18,7 @@ public class Main {
             String params = req.queryParams("text");
 
             cageRequest = new CageRequest(new HeightWidthGenerator() {
-                Random r = new Random()
+                Random r = new Random();
                 @Override
                 public int height() {
                     return 300 + r.nextInt(100);
