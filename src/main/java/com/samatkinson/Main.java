@@ -1,10 +1,9 @@
 package com.samatkinson;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Optional;
 
-import static spark.Spark.*;
+import static spark.Spark.get;
+import static spark.Spark.port;
 
 public class Main {
 
